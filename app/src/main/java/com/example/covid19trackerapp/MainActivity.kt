@@ -54,18 +54,6 @@ class MainActivity: AppCompatActivity() {
         })
 
 
-        imageView.setOnClickListener {
-            val intent = Intent(this , ActivityInfo::class.java)
-            startActivity(intent)
-        }
-
-
-
-
-
-
-
-
     }
 
 }
